@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <hl>hello world</hl>
+     </body>   
+        <script>
+            const url='https://redesigned-bassoon-975j9vjrgj4x3x5g9-3333.app.github.dev/'
+            fetch(url,{
+               // mode:'no-cors'
+               method:"POST",
+               body:json.stringify({
+                name:"harish",
+                age:22,rollno:34543
+
+               }),
+               headers:{
+                'Content-Type':'application/json'
+               }
+
+            })
+            .then((response)=>{
+                console.log(respose)
+            })
+
+        </script>
+</html>
